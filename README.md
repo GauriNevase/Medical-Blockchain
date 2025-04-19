@@ -1,14 +1,10 @@
-# SwasthyaChain : Health Records Management Using Blockchain
+# MediChain : Health Records Management Using Blockchain
 
 
 ## Introduction
 The aim of this framework is firstly to implement blockchain technology for EHR and secondly to provide secure storage of electronic records by defining granular access rules for the users of the proposed framework. Moreover, this framework also discusses the scalability problem faced by the blockchain technology in general via use of off-chain storage of the records. This framework provides the EHR system with the benefits of having a scalable, secure and integral blockchain-based solution.
 <!-- TABLE OF CONTENTS -->
 
-
-## Application Demo Video  
-
-[![Demo](https://raw.githubusercontent.com/SuyashMore/SwasthyaChain/master/images/YT.png)](https://youtu.be/ieBG1Hj8naA)
 
 
 ## Installation
@@ -54,9 +50,10 @@ The projects requires NodeJS and npm to work. Instructions to install all other 
   - Fire up your terminal and run `ipfs init`
   - Then run 
     ```
-    ipfs config --json API.HTTPHeaders.Access-Control-Allow-Origin "['*']"
-    ipfs config --json API.HTTPHeaders.Access-Control-Allow-Credentials "['true']"
-    ipfs config --json API.HTTPHeaders.Access-Control-Allow-Methods "['PUT', 'POST', 'GET']"
+    ipfs config --json API.HTTPHeaders.Access-Control-Allow-Origin "[\"*\"]"
+    ipfs config --json API.HTTPHeaders.Access-Control-Allow-Credentials "[\"true\"]"
+    ipfs config --json API.HTTPHeaders.Access-Control-Allow-Methods "[\"PUT\", \"POST\", \"GET\"]"
+  
     ```
 
     > Note: If you face any issues with the above command on windows, try using command prompt and escape sequences or git bash.
